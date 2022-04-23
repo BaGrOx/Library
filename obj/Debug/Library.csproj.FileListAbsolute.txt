@@ -1,0 +1,8 @@
+C:\Users\jbagr\OneDrive\Pulpit\C#\Library\bin\Debug\Library.exe.config
+C:\Users\jbagr\OneDrive\Pulpit\C#\Library\bin\Debug\Library.exe
+C:\Users\jbagr\OneDrive\Pulpit\C#\Library\bin\Debug\Library.pdb
+C:\Users\jbagr\OneDrive\Pulpit\C#\Library\obj\Debug\Library.csproj.AssemblyReference.cache
+C:\Users\jbagr\OneDrive\Pulpit\C#\Library\obj\Debug\Library.csproj.SuggestedBindingRedirects.cache
+C:\Users\jbagr\OneDrive\Pulpit\C#\Library\obj\Debug\Library.csproj.CoreCompileInputs.cache
+C:\Users\jbagr\OneDrive\Pulpit\C#\Library\obj\Debug\Library.exe
+C:\Users\jbagr\OneDrive\Pulpit\C#\Library\obj\Debug\Library.pdb
