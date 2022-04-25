@@ -41,8 +41,10 @@ namespace Library
                     case "1":
                         Console.WriteLine("Please choose a book from the list below");
                         library.DisplayAllBooks();
-                        break;
+                        var idBook = Console.ReadLine();
 
+                        library.BorrowBooksInLibrary(idBook);
+                        break;
                     case "2":
                         library.DisplayAllBooks();
                         break;

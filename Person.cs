@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Library
 {
-    internal class Person : Library
+    internal class Person 
     {
 
         public Person(string name, string password)

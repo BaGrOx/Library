@@ -8,7 +8,8 @@ namespace Library
 {
     internal class Library : Program
     {
-        
+        internal Books books = new Books();
+
         private void PrivateDisplayPerson(Person person)
         {
             Console.WriteLine($"ID: {person.IdClient} Name: {person.Name} ");
@@ -34,9 +35,7 @@ namespace Library
 
         public void DisplayAllBooks()
         {
-            var books = new Books();
-           
-           books.AllBooks();
+            books.AllBooks();
         }
 
         public void DisplayListPerson()
@@ -64,8 +63,23 @@ namespace Library
 
             }
         }
-
         
+        public void BorrowBooksInLibrary(string idBook)
+        {
+           
+
+            var borrowBooks = books.baseOfBooks.Where(b => b.Key == idBook);
+
+            if(borrowBooks != null)
+            {
+                Console.WriteLine($"\nBooks with the title {books.baseOfBooks[idBook]} is borrow");
+                books.BookIsBorrow(idBook);
+            }
+            else
+            {
+                Console.WriteLine("!!! ERROR !!!");
+            }
+        }
 
     }
 }
